@@ -1,7 +1,16 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.333fb578.js",
-  "main.js.map": "static/js/main.333fb578.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.b95bf4b0.css",
+  "main.css.map": "static/css/main.b95bf4b0.css.map",
+  "main.js": "static/js/main.ef874074.js",
+  "main.js.map": "static/js/main.ef874074.js.map",
+  "static/media/arrow-up-.svg": "static/media/arrow-up-.208ff7e1.svg",
+  "static/media/css.svg": "static/media/css.0c5a1e25.svg",
+  "static/media/github-logo.svg": "static/media/github-logo.aa1b70d1.svg",
+  "static/media/html5.svg": "static/media/html5.ec509d69.svg",
+  "static/media/js.svg": "static/media/js.4f7c8ca8.svg",
+  "static/media/linkedin-logo-button.svg": "static/media/linkedin-logo-button.b1ddd293.svg",
+  "static/media/ng.svg": "static/media/ng.8e12205d.svg",
+  "static/media/node.svg": "static/media/node.a1f7b38f.svg",
+  "static/media/profile.jpg": "static/media/profile.3328101c.jpg",
+  "static/media/react.svg": "static/media/react.1a2e6932.svg"
 }
