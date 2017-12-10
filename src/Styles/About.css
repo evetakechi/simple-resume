@@ -1,0 +1,118 @@
+.section-about {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: auto;
+  min-height: 100vh;
+}
+
+.detail {
+  padding-top: 25px;
+}
+.detail p {
+  font: 20px 'Quicksand', sans-serif;
+  color: #254558;
+  padding-left: 10px;
+  text-align: left;
+  line-height: 1.5;
+}
+.img-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+
+.img-profile {
+  width: 240px;
+  height: 320px;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto; 
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: 15px 'Quicksand', sans-serif;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  height: 50px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  color: #ee2061;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -moz-transition: 0.25s;
+}
+
+button:hover,
+button:focus {
+  border-color: #d11850;
+  color: #f4f5f6;
+  font-weight: 400;
+}
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em #d11850;
+}
+
+.btn-area {
+  width: 100%;
+  text-align: center;
+}
+
+.ul-list {
+  padding-top: 15px;
+  margin: 0 auto;
+  padding-left: 10px;
+  list-style-type: none;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+.ul-list li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #254558;
+  padding-bottom: 5px;
+}
+
+.ul-list li span {
+  font-weight: 300;
+  color: #2b2b3a;
+  padding-left: 15px;
+}
+
+.logo-git, .logo-in{
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px;
+  background: #2b2b3a;
+  border-radius: 100%;
+  border: 2px solid #254558;
+  transition: 1s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo-git:hover{
+  background: #1ed2f4;
+  border-color:  #1ed2f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+ 
+}
+
+.logo-in:hover{
+  background: #ee2061;
+  border-color:  #ee2061;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+ 
+}
+
+
+
+

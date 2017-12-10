@@ -1,0 +1,18 @@
+.react-ex {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.react-ex:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.link-area {
+  padding: 10px;
+}
+
+.ex-section {
+  height: 50vh;
+}

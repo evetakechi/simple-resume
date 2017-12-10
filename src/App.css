@@ -1,28 +1,344 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  position: relative;
+  height: 48px;
+  text-align: center;
+  overflow: hidden;
 }
 
-.App-title {
-  font-size: 1.5em;
+.wrap-text,
+.wrap-text-white {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
 }
 
-.App-intro {
-  font-size: large;
+.wrap-text h1 {
+  font: 22px "Quicksand", sans-serif;
+  color: #2b2b3a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.wrap-text-white h1 {
+  font: 22px "Quicksand", sans-serif;
+  color: #f4f5f6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.about-span {
+  border-bottom: 3px solid #1ed2f4;
+  padding-bottom: 6px;
+}
+
+.learning-span {
+  border-bottom: 3px solid #eafc40;
+  padding-bottom: 6px;
+}
+
+.example-span {
+  border-bottom: 3px solid #ee2061;
+  padding-bottom: 6px;
+}
+
+.space-area {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.blue-bg {
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  background-image: -webkit-linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  background-image: -moz-linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+@media only screen and (max-width: 1024px) {
+  /*-- Banner --*/
+  .banner-bg .banner-text h1,
+  .banner-bg .banner-text h1 span {
+    font: 80px "Quicksand", sans-serif;
+    letter-spacing: 1px;
+    margin: 0 auto 12px auto;
+  }
+
+  /*-- Timeline --*/
+
+  .direction-r {
+    width: 84.9%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /*-- Nav --*/
+  .nav-wrap {
+    font: 16px "Quicksand", sans-serif;
+    letter-spacing: 1.5px;
+  }
+
+  /*-- Banner --*/
+  .scroll-downs {
+    display: none;
+  }
+  .banner-bg .banner {
+    padding-bottom: 12px;
+  }
+  .banner-bg .banner-text h1,
+  .banner-bg .banner-text h1 span {
+    font: 78px "Quicksand", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .banner-bg .banner-text h3,
+  .banner-bg .banner-text h3 span {
+    font: 25px "Quicksand", sans-serif;
+    width: 80%;
+  }
+
+  /*-- About --*/
+
+  .img-profile {
+    width: 220px;
+    height: 300px;
+  }
+
+  .detail {
+    padding-top: 0px;
+  }
+  /*-- Learning -- */
+  .timeline:before {
+    left: 15%;
+  }
+  .direction-r {
+    width: 81.3%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /*-- Nav --*/
+  .nav-wrap {
+    font: 14px "Quicksand", sans-serif;
+    letter-spacing: 1px;
+  }
+  /*-- Banner --*/
+  .banner-bg .banner {
+    padding-bottom: 12px;
+    padding-top: 6px;
+  }
+  .banner-bg .banner-text h1,
+  .banner-bg .banner-text h1 span {
+    font: 68px "Quicksand", sans-serif;
+  }
+
+  .banner-bg .banner-text h3,
+  .banner-bg .banner-text h3 span {
+    font: 20px "Quicksand", sans-serif;
+    width: 85%;
+  }
+
+  /*-- About --*/
+  .img-profile {
+    width: 200px;
+    height: 260px;
+  }
+
+  .timeline:before {
+    left: 0%;
+  }
+
+  .direction-r {
+    width: 95.6%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /*-- Nav --*/
+  .nav-wrap {
+    font: 12px "Quicksand", sans-serif;
+    letter-spacing: 0.5px;
+  }
+  /*-- Banner --*/
+  .banner-bg .banner {
+    padding-top: 24px;
+  }
+  .banner-bg .banner-text h1,
+  .banner-bg .banner-text h1 span {
+    font: 40px "Quicksand", sans-serif;
+    margin: 0 auto 24px auto;
+  }
+
+  .banner-bg .banner-text h3,
+  .banner-bg .banner-text h3 span {
+    font: 18px "Quicksand", sans-serif;
+    width: 90%;
+  }
+
+  /*-- About --*/
+  .wrap-text h1 {
+    font-size: 18px;
+  }
+
+  .detail p {
+    font: 16px "Quicksand", sans-serif;
+    padding-left: 0px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .img-profile {
+    width: 120px;
+    height: 160px;
+  }
+
+  button {
+    margin: 0.25em;
+    padding: 0.5em 1em;
+    height: 40px;
+  }
+
+  .ul-list {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .ul-list li {
+    font-size: 14px;
+  }
+
+  .ul-list li span {
+    padding-left: 10px;
+  }
+
+  /*-- Learning --*/
+
+  .direction-r {
+    width: 91.5%;
+  }
+
+  .desc {
+    margin: 1em 1em;
+  }
+
+  .flag {
+    font: 14px "Quicksand", sans-serif;
+    font-weight: 700;
+
+    color: #2b2b3a;
+  }
+
+  .time-wrapper {
+    font-weight: 400;
+    line-height: 1em;
+    font: 12px "Quicksand", sans-serif;
+  }
+
+  .desc h2 {
+    font: 18px "Quicksand", sans-serif;
+    font-weight: 500;
+
+    color: #ee2061;
+  }
+
+  .desc p {
+    font: 14px "Quicksand", sans-serif;
+    line-height: 1.5em;
+
+    color: #2b2b3a;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /*-- Learning --*/
+
+  .direction-r {
+    width: 90%;
+  }
+
+  .desc {
+    margin: 1em 1em;
+  }
+
+  .flag {
+    font: 12px "Quicksand", sans-serif;
+    font-weight: 700;
+
+    color: #2b2b3a;
+  }
+
+  .time-wrapper {
+    font-weight: 400;
+    line-height: 1em;
+    font: 10px "Quicksand", sans-serif;
+  }
+
+  .desc h2 {
+    font: 16px "Quicksand", sans-serif;
+    font-weight: 500;
+
+    color: #ee2061;
+  }
+
+  .desc p {
+    font: 12px "Quicksand", sans-serif;
+    line-height: 1.5em;
+
+    color: #2b2b3a;
+  }
+
+  .direction-r .desc {
+    margin: 1em 1em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /*-- Learning --*/
+
+  .direction-r {
+    width: 87.9%;
+  }
+
+  .desc {
+    margin: 1em 1em;
+  }
+
+  .flag {
+    font: 10px "Quicksand", sans-serif;
+    font-weight: 700;
+
+    color: #2b2b3a;
+  }
+
+  .time-wrapper {
+    font-weight: 400;
+    line-height: 1em;
+    font: 8px "Quicksand", sans-serif;
+  }
+
+  .desc h2 {
+    font: 14px "Quicksand", sans-serif;
+    font-weight: 500;
+
+    color: #ee2061;
+  }
+
+  .desc p {
+    font: 12px "Quicksand", sans-serif;
+    line-height: 1.5em;
+
+    color: #2b2b3a;
+  }
+
+  .direction-r .desc {
+    margin: 1em 0em;
+  }
+
+  /*-Footer-*/
+
+  .contact {
+   
+    margin: 20px auto ;
+  }
 }

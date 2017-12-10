@@ -1,0 +1,158 @@
+.banner-bg {
+    position: relative;
+    height: 100vh;
+    min-height: 50vh;
+    width: 100%;
+    background-image: -webkit-gradient(
+      linear,
+      from(rgb(37, 69, 88)),
+      to(rgb(43, 43, 58))
+    );
+    background-image: -webkit-linear-gradient(rgb(37, 69, 88), rgb(43, 43, 58));
+    background-image: -moz-linear-gradient(rgb(37, 69, 88), rgb(43, 43, 58));
+    background-image: linear-gradient(rgb(37, 69, 88), rgb(43, 43, 58));
+    overflow: hidden;
+    text-align: center;
+  }
+  .banner-bg::before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .banner-bg .banner {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .banner-bg .banner-text {
+    width: 100%;
+  }
+  
+  .banner-bg .banner-text h1 {
+    color: #f4f5f6;
+    font: 90px "Quicksand", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  
+  .banner-bg .banner-text h1 span {
+    color: #1ed2f4;
+    font: 90px "Quicksand", sans-serif;
+    font-weight: 400;
+  }
+  
+  .banner-bg .banner-text h3 {
+    color: #f4f5f6;
+    font: 30px "Quicksand", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  .banner-bg .banner-text h3 span {
+    color: #eafc40;
+    font: 30px "Quicksand", sans-serif;
+    font-weight: 400;
+  }
+  
+  .banner-bg .banner-text h1,
+  .banner-bg .banner-text h1 span {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .banner-bg .banner-text h3,
+  .banner-bg .banner-text h3 span {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  .animate-pop-in {
+    -webkit-animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+    animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+    opacity: 0;
+  }
+  
+  
+    .scroll-downs {
+      position: absolute;
+      top: 70%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;  
+      width :34px;
+      height: 55px;
+    }
+    .mousey {
+      width: 3px;
+      padding: 10px 15px;
+      height: 35px;
+      border: 2px solid #d11850;
+      border-radius: 25px;
+      opacity: 0.75;
+      box-sizing: content-box;
+    }
+    .scroller {
+      width: 3px;
+      height: 10px;
+      border-radius: 25%;
+      background-color: #d11850;
+      animation-name: scroll;
+      animation-duration: 2.2s;
+      animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+      animation-iteration-count: infinite;
+    }
+  
+    .scroll-downs {
+      -webkit-animation-delay: 1.2s;
+      animation-delay: 1.2s;
+    }
+    
+  
+  /*------ Animation --------*/
+  
+  @keyframes scroll {
+      0% { opacity: 0; }
+      10% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(15px); opacity: 0;}
+    }
+  
+  @-webkit-keyframes pop-in {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-4rem) scale(0.8);
+      transform: translateY(-4rem) scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-4rem) scale(0.8);
+      transform: translateY(-4rem) scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }

@@ -1,0 +1,32 @@
+.dark-bg {
+    background: #2b2b3a;
+    height: 25vh;
+}
+
+.contact {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 auto ;
+}
+
+.go-top {
+    text-align: right;
+    width: 100%;
+}
+
+.go-top a img{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    border: 2px solid white;
+    transition: 1s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.go-top a img:hover{
+    background: #eafc40;
+    border-color:  #eafc40;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+   
+}

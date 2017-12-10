@@ -1,0 +1,64 @@
+{
+  "menus": ["Home", "About", "Learning", "Example"],
+  "profile": [
+    { "label": "Name", "text": "Nattakarn Khrongyut" },
+    { "label": "Age", "text": "27" },
+    { "label": "nickName", "text": "Eve" },
+    { "label": "Tel", "text": "+6698-269-1689" },
+    { "label": "e-mail", "text": "the.prince.eve@gmail.com" },
+    { "label": "Address", "text": "Jasmine Tower, Pakkret, Nonthaburi 11120" }
+  ],
+  "detailProfile":
+    "Hello! I am Application programmer at 3BB. I am looking for new oppertunities that improve myself to be better.",
+  "skills": [
+    { "name": "html", "percent": "70", "logo": "html5" },
+    { "name": "css", "percent": "60", "logo": "css" },
+    { "name": "javascript", "percent": "60", "logo": "js" },
+    { "name": "nodejs", "percent": "60", "logo": "node" },
+    { "name": "angular", "percent": "35", "logo": "ng" },
+    { "name": "react", "percent": "30", "logo": "react" }
+  ],
+  "Learning": [
+    {
+        "time": "2009 - 2012",
+        "position": "Student",
+        "titlePlace": "Khon Kaen University",
+        "detail": [
+          {
+            "time": "2009 - 2012",
+            "dataDetail":
+              "I graduated bachelor degree in Engineering, Computer Engineer Major."
+          }
+          
+  
+        ]
+      },
+      
+    {
+      "time": "May 2013 - Present",
+      "position": "Application Programmer",
+      "titlePlace": "Triple T Broadband (3BB)",
+      "detail": [
+        {
+          "time": "May 2013 - 2015",
+          "dataDetail":
+            "I developed internal web 2 projects with development team. Internal web was developed by using flex4.6 (Adobe Flash Builder 4.6). Flex is framework for develop web by using mxml and actionscritp language.The two internal web is inventory system and install management system."
+        },
+        {
+            "time": "July2015 - Present",
+            "dataDetail":
+              "I have started learn Angular(1.x) to develop billing and customer system. At the present this project has developed into phase 2. I have developed part of Front-end and used material design for css framework."
+          },
+          {
+            "time": "July2016 - Present",
+            "dataDetail":
+              "I have started learn Nodejs to develop websocket server for two internal webs. Then I have developed Rest Api for Internal Mobile Application, Rest Api for web connect to MySql and server for send E-mail with Nodejs. For now I'm developing web socket server for dashboard web and still learning Angular5,ReactJs and Nodejs."
+          }
+
+      ]
+    }
+  ],
+  "urlGit":"https://github.com/evetakechi",
+  "urlLinkIn":"http://linkedin.com/in/nattakarn-khrongyut-2b790444",
+  "urlProject":"https://github.com/evetakechi/simple-react-piggame"
+}
